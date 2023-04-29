@@ -1,6 +1,6 @@
 {
-  "short_name": "React Image Compressor",
-  "name": "A Simple Offline Image Compressor Built With React",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
