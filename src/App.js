@@ -18,6 +18,11 @@ function App() {
           Learn React
         </a>
       </header>
+              <button onClick={() => {
+          fetch('http://localhost:3004/api/hello', {
+            mode: "no-cors"
+          }).then(res => console.log(res)).catch(err => console.log(err))
+        }}>test</button>
     </div>
   );
 }
